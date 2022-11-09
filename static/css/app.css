@@ -1,0 +1,639 @@
+@import 'utility.css';
+
+:root{
+    --dark:#1F2833;
+    --light: #FFFFFF;
+    --pure:#279af5;
+
+     
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    
+   
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+
+}
+
+header{
+    background-color: var(--dark);
+       
+}
+.container_1{
+    height: 600px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+.container{
+    height:1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+nav{
+    background-color: var(--dark);
+    width: 100%;
+    padding:2rem 2.5rem 1rem 2rem;
+    position: fixed;
+    top: 0;
+    z-index:1;
+  
+
+}
+
+nav .left a {
+    color: var(--light);
+    font-size: 25px; 
+    display:block;
+    text-decoration: None;
+    font-family: 'Edu VIC WA NT Beginner';
+    position: relative;
+}
+
+nav .right a {
+    color: var(--light);
+    font-size: 16px;
+    margin-right: 1rem; 
+    padding: 2px 4px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    text-decoration: none;
+    position: relative;
+   
+}
+nav .right a:hover{
+    color:var(--pure);
+    font-size: 110%;
+    
+}
+
+.Images{
+    max-width: 1200px;
+    height: 500px;
+    padding: 80px 15px;
+    margin: 0 auto;
+
+}
+.Images .left img{
+    display:block;
+    height: 350px;
+    width: 350px;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 50%;
+}
+.container_1 .Images .right .inner{
+    padding: 20px 100px;
+    text-align: center;
+   
+}
+.container_1 .Images .right .inner h6{
+    color:gray;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.container_1 .Images .right .inner h1{
+    color: turquoise;
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+.container_1 .Images .right .inner p{
+    font-size: 17.5px;
+    color:gray;
+    line-height: 1.6;
+}
+.btn{
+    background-color:turquoise;
+    color: var(--dark);
+    border: None;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:whitesmoke;
+
+}
+
+
+#about {
+
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom-style: groove;   
+}
+
+
+
+#about  .span{
+    font-size: 50px;
+    color : turquoise;
+    
+}
+#about  p{
+    font-size: 18px;
+    color: gray;
+    line-height: 2;
+    padding: 2rem ;
+
+}
+#about  .social a{
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.4rem; 
+
+}
+#about  .social a:hover{
+    background: black;
+    transition: all .3s ease;
+}
+#about  .social a img{
+    width: 05.5%;
+    height: 05.5%;
+}
+
+
+.Experience{
+    
+    background: ghostwhite;
+}
+
+.Experience .span{
+    font-size: 50px;
+    color: turquoise;
+    text-align:center;
+    padding: 3rem;
+}
+
+.Experience  .card {
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    width:100%;
+    grid-gap:40px;
+    padding:2rem 2rem 2rem 2rem;
+   
+/* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  grid-gap: 20px;
+  align-items: end; */
+  
+}
+.Experience  .card > article {
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px 0px  rgba(0,0,0,0.3);
+}
+.Experience  .card > article img {
+    width: 100%;
+    height:300px;
+}
+
+.Experience  .card .card_1{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.skills{
+
+    padding: 2rem 1rem;
+    color:gray;
+    background: ghostwhite;
+    
+}
+
+
+.skills .span {
+    font-size: 50px;
+    color: turquoise;
+    text-align:center;
+    padding: 3rem;
+
+}
+
+.skills .first .left > img{
+    align-items: center;
+    padding: 2rem;
+    width: 450px;
+    height: 450px;
+    border-radius:50%;
+}
+
+.skills .first .right{
+    padding: 2rem;
+    width: 650px;
+}
+
+.skills .first .right > img{
+    padding: 1rem;
+    width: 90px;
+    height: 90px;
+}
+.skills .first .right .content{
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.Contact {
+    font-size: 25px;
+    font-weight: 600;
+    width:1200px;
+}
+.Contact  .first .right{
+    padding:05rem 4rem 0rem 0.5rem;
+}
+.Contact .first .left{
+    padding:04rem 5rem 0rem 4rem;
+}
+
+.Contact  >h1{
+    font-size: 50px;
+    color: turquoise;
+    font-weight: bolder;
+    text-align: center;
+    padding: 05rem 00rem 00rem 00rem;
+   
+}
+.Contact  >p{
+
+    font-size: 30px;
+    color:turquoise;
+    text-align: center;
+    padding: 00rem 05rem 00rem 05rem;
+}
+.Contact .first .left> img{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+}
+.Contact  .first .right>p{
+    padding:4rem 1rem 1rem 1rem;
+    font-size: 18px;
+    color:gray;
+    line-height: 2rem;
+
+}
+.Contact  .first .center{
+    padding:1rem;
+}
+.Contact  .first .right> iframe{
+    align-content: left;
+    float:left;
+    border-radius:20px;
+    padding-bottom: 1rem;
+}
+
+.Contact  .first .left>p{
+    padding:2rem;
+    font-size: 20px;
+    color:gray;
+    line-height: 2rem;
+
+}
+.Contact .first .left >span{
+    vertical-align: middle;
+    font-size: 20px;
+    color: turquoise;
+    
+}
+
+.Contact  .first .right >span{
+    vertical-align: middle;
+    font-size: 20px;
+    color: turquoise;
+    
+}
+
+
+
+
+.Contact  .social a{
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.4rem; 
+
+}
+.Contact  .social a:hover{
+    background: black;
+    transition: all .3s ease;
+}
+.Contact  .social a img{
+    width: 05.5%;
+    height: 05.5%;
+}
+.footer .left{
+    float: left;
+    color:black;
+    padding:1rem;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.footer  .right{
+    float:  right;
+    text-align: end;
+    color: black;
+    padding: 1rem;
+    margin-right: 10%;
+    font-weight:bold;
+}
+
+#to-top{
+    font-size: 20px;
+    text-align: center;
+    color:#333;
+    cursor:pointer;
+    content: attr(data-hover);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color,color;
+
+}
+#to-top:hover, #to-top:focus{
+    background-color:rgb(10, 118, 161);
+    color:#333;
+    
+}
+
+#Certifications .container{
+height: 800px;
+ padding:05rem;
+   
+}
+
+#Certifications .container .left{
+    width: 800px;
+    height:700px;
+}
+
+
+#Certifications .container .right{
+    width:800px;
+    padding:2rem 0rem 5rem 4rem;
+}
+#Certifications .container .right .achieve{
+
+    padding: 2rem 1rem 5rem 4rem;
+    font-size: 16px;
+    color:gray;
+}
+/* #Certifications .container .right> h1{
+    text-align: center;
+    padding:1rem 2rem 1rem 2rem;
+    color: turquoise;
+    font-size:40px; }*/
+
+#Certifications .container .right> h2{
+    
+    padding: 10rem 1rem 1rem 4rem;
+    color: turquoise;
+    font-size: 22px;
+}
+
+#Certifications .container .left> img{
+    height: 90%;
+    width : 90%;
+}
+#Certifications .container .right .academic> a img{
+    width: 95px;
+    height: 70px;
+    padding: 0.3rem;
+}
+#Certifications  .certi_block{
+    height: 600px;
+}
+
+
+#Certifications  .certi_block .span{
+    text-align: center;
+    color: turquoise;
+    font-size: 35px;
+    padding: 2rem;
+}
+#Certifications .certi_block #grid-col{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    width:800px;
+    grid-gap:50px;
+    padding:1rem 08rem;
+}
+
+div.cell{
+    box-shadow: 5px 5px 10px 0px  rgba(0,0,0,0.3);
+    border-radius: 5px;
+    height: 225px;
+    width: 350px;
+}
+
+div .cell> a img{
+    width: 350px;
+    height: 125px;
+    border-bottom: 2px solid black;
+    
+}
+div .cell> a :hover{
+    opacity:0.5;
+}
+
+div .cell hr{
+    padding:0rem;
+    margin: 0;
+    border-top:1px;
+}
+   
+div .content{
+    font-size: 20px;
+    text-align: center;
+    padding:1rem;
+}
+
+div .content> p span{
+    color: grey;
+
+}
+#Education{
+    padding:4rem;
+}
+
+#Education .Degree .span {
+    font-size: 50px;
+    color: turquoise;
+    text-align:center;
+    padding: 3rem;
+
+}
+
+#Education .Degree>p{
+    font-size:40px;
+    color:turquoise;
+    font-weight: bold;
+    padding:2rem;
+    
+    
+}
+#Education .space{
+    padding: 2rem 2rem 08rem 1rem;
+}
+
+#Education .space .left{
+    align-content: center;
+    width: 200px;
+    border-radius:80% 80% 80% 80%;
+    border:20px;
+    border-color: deepskyblue;
+    
+}
+
+
+#Education .space .left > img{
+
+   width: 150px;
+   height: 180px;
+   padding:5rem 2rem 0.5rem 2rem;
+   
+}
+#Education .space .right{
+    text-align: left;
+    width: 1000px;
+    height:310px;
+    box-shadow: 5px 5px 10px 0px  rgba(0,0,0,0.3);
+    border-radius: 10px/10px;
+    
+    
+}
+#Education .space .right .top{
+    background-color: rgb(36, 156, 226);
+    height:38%;
+}
+#Education .space .right .top .header .left_1{
+    padding:1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(12, 12, 110);
+}
+#Education .space .right .top .header .right_1{
+    padding:1rem;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(12, 12, 110);
+}
+#Education .space .right .top>p{
+
+    padding:1rem;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(12, 12, 110);
+
+}
+#Education .space .right> p {
+    color:rgb(12, 12, 110);
+    font-size:15.5px;
+}
+
+#Education .space .right> p span{
+    font-size: 25px;
+    font-weight:800;
+}
+#Education .space .right .button{
+    float: right;
+    padding:1.25rem;
+    
+}
+#Education .space .right .button> a button{
+
+    border: None;
+    background-color: lightblue;
+    color:rgb(11, 11, 155);
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#project{
+    background-color: ghostwhite;
+}
+
+
+#project > h1{
+    text-align: center;
+    padding:5rem 2rem 1rem 2rem;
+    color: turquoise;
+    font-size:50px;
+    padding:05rem 5rem 4rem 2rem;
+
+}
+#project  .segment{
+    padding:1rem 10rem 10rem 5rem;
+    width:2000px;
+    height: 500px;
+}
+#project  .segment .left{
+    width: 600px;
+    height:400px;
+    border-radius: 20px;
+    border: 20px;
+    color: white;   
+    box-shadow: 5px 5px 10px 0px  rgba(0,0,0,0.3);
+}
+#project  .segment .left> a img{
+    width: 600px;
+    height:400px;
+    border-radius: 20px;
+    
+}
+#project  .segment .right{
+    width: 500px;
+    height: 700px;
+    padding: 0rem 0rem 1rem 4rem;
+   
+}
+#project  .segment .right> h2{
+    padding: 0rem 0rem 1rem;
+    font-style: italic;
+    font-family:Georgia;
+    color: rgb(15, 119, 119);
+   
+}
+#project  .segment .right> p{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 119, 119);   
+    padding: 2rem;
+    line-height: 15;
+}
+
+#project  .segment .right #more{
+    display: none;
+}
+
+#project  .segment .right >a  img{
+    width:60px;
+    height: 60px;
+    padding: .5rem;
+}
+
+
+
+
+
+
+
+
+
